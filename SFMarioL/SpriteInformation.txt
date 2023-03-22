@@ -1,0 +1,3 @@
+Images/mario.png 16 16
+Images/koopa.png 16 16
+Images/goomba.png 16 16
