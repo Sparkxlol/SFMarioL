@@ -34,8 +34,8 @@ SpritesheetObject SpriteInitializer::createSpriteInfoFromLine(std::string sprite
 	std::string separator = " ";
 	std::string fileName = separateNextWord(spriteInfo, separator);
 	sf::Vector2i initialSpriteSize = sf::Vector2i(
-		std::stoi(separateNextWord(spriteInfo, separator)),
-		std::stoi(separateNextWord(spriteInfo, separator))
+		std::stoul(separateNextWord(spriteInfo, separator)),
+		std::stoul(separateNextWord(spriteInfo, separator))
 	);
 
 	return SpritesheetObject(fileName, initialSpriteSize);

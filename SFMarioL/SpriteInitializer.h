@@ -18,7 +18,7 @@ public:
 
 	sf::Texture texture;
 	std::string fileName;
-	sf::Vector2i individualSize;
+	sf::Vector2u individualSize;
 };
 
 class SpriteInitializer
