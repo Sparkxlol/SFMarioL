@@ -130,15 +130,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DefaultTest.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="SFMarioL.cpp" />
     <ClCompile Include="SpriteInitializer.cpp" />
     <ClCompile Include="Spritesheet.cpp" />
+    <ClCompile Include="SpritesheetTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DefaultTest.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="SpriteInitializer.h" />
     <ClInclude Include="Spritesheet.h" />
+    <ClInclude Include="SpritesheetTest.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="SpriteInformation.txt" />
